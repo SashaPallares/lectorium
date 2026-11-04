@@ -1,4 +1,4 @@
-/* Tarjeta de libro estilo catálogo / Letterboxd */
+/* Tarjeta de libro */
 .book-card {
   width: 180px;
   background-color: var(--card-bg);
@@ -100,7 +100,7 @@
   font-style: italic;
 }
 
-/* Enlace / Botón de eliminar discreto y elegante abajo */
+/* Enlace / Botón de eliminar */
 .delete-book-link {
   background: none;
   border: none;

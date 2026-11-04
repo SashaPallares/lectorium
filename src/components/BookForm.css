@@ -25,7 +25,7 @@
 }
 
 .search-container {
-  position: relative; /* Necesario para que el desplegable se ubique justo abajo */
+  position: relative; /* Para que el desplegable se ubique justo abajo */
 }
 
 .form-group label {

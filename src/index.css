@@ -1,4 +1,4 @@
-/* Reseteo general y variables de color estilo Editorial / Papel */
+/* Reseteo general y variables de color */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,8 +17,7 @@
 }
 
 body {
-  font-family:
-    "Georgia", "Cambria", "Times New Roman", serif; /* Tipografía estilo libro */
+  font-family: "Georgia", "Cambria", "Times New Roman", serif;
   background-color: var(--bg-color);
   color: var(--text-secondary);
   line-height: 1.6;
@@ -27,13 +26,13 @@ body {
 
 .app-container {
   width: 100%;
-  max-width: 1400px; /* Se expande en pantallas grandes */
+  max-width: 1400px;
   margin: 0 auto;
   padding: 0 32px;
 }
 
 @media (max-width: 768px) {
   .app-container {
-    padding: 0 16px; /* Márgenes más angostos en celulares */
+    padding: 0 16px;
   }
 }

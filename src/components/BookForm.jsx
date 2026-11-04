@@ -10,7 +10,7 @@ function BookForm({ onAddBook }) {
 
   const [suggestions, setSuggestions] = useState([]);
   const [isSearching, setIsSearching] = useState(false);
-  const [isSelecting, setIsSelecting] = useState(false); // 🪄 Bandera para evitar que se dispare la búsqueda al seleccionar
+  const [isSelecting, setIsSelecting] = useState(false);
 
   useEffect(() => {
     // Si estamos seleccionando un libro mediante el click, ignoramos este efecto

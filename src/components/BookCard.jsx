@@ -11,7 +11,7 @@ function BookCard({ id, title, author, cover, rating, status, onDelete }) {
           className="book-cover-img"
         />
 
-        {/* Badge de estado sutil arriba */}
+        {/* Badge de estado */}
         {status === "read" && (
           <span className="book-status-badge">✓ Leído</span>
         )}
@@ -36,7 +36,7 @@ function BookCard({ id, title, author, cover, rating, status, onDelete }) {
             <span className="book-pending-label">Pendiente</span>
           )}
 
-          {/* Botón de eliminar integrado abajo, limpio y libre de conflictos */}
+          {/* Botón de eliminar integrado abajo */}
           <button
             className="delete-book-link"
             onClick={() => onDelete(id)}
