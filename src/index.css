@@ -1,0 +1,39 @@
+/* Reseteo general y variables de color estilo Editorial / Papel */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: #f7f4ed; /* Fondo color crema / papel natural */
+  --card-bg: #ffffff; /* Blanco puro para las tarjetas y paneles */
+  --text-primary: #2b2b2b; /* Tinta oscura (negro suave) para títulos */
+  --text-secondary: #6e6b66; /* Tinta desgastada / sepia suave para textos */
+  --border-color: #e2ddd3; /* Bordes sutiles estilo encuadernación */
+  --accent-green: #2d6a4f; /* Verde bosque elegante para lecturas/badges */
+  --accent-star: #d4a373; /* Dorado cálido / sepia para las estrellas */
+  --accent-hover: #eae5d9; /* Sombra o hover suave */
+}
+
+body {
+  font-family:
+    "Georgia", "Cambria", "Times New Roman", serif; /* Tipografía estilo libro */
+  background-color: var(--bg-color);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 1400px; /* Se expande en pantallas grandes */
+  margin: 0 auto;
+  padding: 0 32px;
+}
+
+@media (max-width: 768px) {
+  .app-container {
+    padding: 0 16px; /* Márgenes más angostos en celulares */
+  }
+}
